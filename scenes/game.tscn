@@ -234,6 +234,7 @@ position = Vector2(500, 54)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Platform2" unique_id=771803418]
 libraries/ = SubResource("AnimationLibrary_iywne")
+autoplay = &"move"
 
 [node name="Platform3" parent="." unique_id=1355515886 instance=ExtResource("3_cmfc3")]
 position = Vector2(-399, -16)
