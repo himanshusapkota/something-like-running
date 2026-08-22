@@ -580,9 +580,9 @@ theme_override_fonts/font = ExtResource("9_0tnpc")
 theme_override_font_sizes/font_size = 16
 text = "
 
-HEHEH"
+"
 
-[node name="Music" type="AudioStreamPlayer2D" parent="." unique_id=422050755]
+[node name="Music" type="AudioStreamPlayer2D" parent="Game_Manager" unique_id=422050755]
 stream = ExtResource("11_kvpfn")
 autoplay = true
 bus = &"Music"
