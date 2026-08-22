@@ -1,46 +1,41 @@
 # Something Like Running
 
-A simple 2D game built with Godot.
+**Something Like Running** is a little game created with the Godot Engine. The idea behind it is quite simple – keep running, jump over obstacles, avoid falling and survive for as long as possible.
+
+## About the Game
+
+This little game is based on the principles of simple platforming mechanics. The player controls a character which runs through the levels, jumping over obstacles.
+
+
 
 ## Play
 
-[Play Something Like Running](https://something-like-running.netlify.app/)
+**[Play Something Like Running](https://something-like-running.netlify.app/)**
 
 ## Features
 
-* Simple 2D gameplay
-* Pixel-art style
-* Built with Godot
-* Lightweight and easy to run
-* Web export available
+* 2D platforming gameplay
+* Running and jumping mechanics
+* Obstacles and platform mechanics
+* Pixel-art inspired graphics
+* Custom game scenes and assets
+* Available in Web version
 
 ## Built With
 
 * Godot 4
 * GDScript
 
-## Clone the Repository
+## Run Locally
 
-Clone the repository using Git:
+Clone the repository:
 
 ```bash
 git clone https://github.com/himanshusapkota/something-like-running.git
-```
-
-Move into the project directory:
-
-```bash
 cd something-like-running
 ```
 
-## Run Locally
-
-1. Install [Godot](https://godotengine.org/).
-2. Open Godot.
-3. Select **Import**.
-4. Choose the `project.godot` file from the cloned repository.
-5. Open the project.
-6. Press **F6** to run the current scene or **F5** to run the main project.
+Open `project.godot` file with Godot 4 and press **F6** to run the current scene or **F5** to run the whole game.
 
 ## Project Structure
 
@@ -51,18 +46,9 @@ something-like-running/
 ├── scenes/
 ├── addons/
 ├── project.godot
-├── export_presets.cfg
-├── default_bus_layout.tres
-├── LICENSE
-└── .gitignore
+└── export_presets.cfg
 ```
-
-## Export
-
-The project includes Godot export presets. You can export the game for supported platforms directly through Godot's export menu.
 
 ## License
 
 This project is licensed under the MIT License.
-
-See the [LICENSE](LICENSE) file for more information.
